@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "open-mvoie-desktop_autogen/timestamp" "custom" "open-mvoie-desktop_autogen/deps"
   "/home/mohammadali/Documents/Qt/open-mvoie-desktop/main.cpp" "CMakeFiles/open-mvoie-desktop.dir/main.cpp.o" "gcc" "CMakeFiles/open-mvoie-desktop.dir/main.cpp.o.d"
   "/home/mohammadali/Documents/Qt/open-mvoie-desktop/mainwindow.cpp" "CMakeFiles/open-mvoie-desktop.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/open-mvoie-desktop.dir/mainwindow.cpp.o.d"
+  "/home/mohammadali/Documents/Qt/open-mvoie-desktop/moviedetails.cpp" "CMakeFiles/open-mvoie-desktop.dir/moviedetails.cpp.o" "gcc" "CMakeFiles/open-mvoie-desktop.dir/moviedetails.cpp.o.d"
   "/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/open-mvoie-desktop_autogen/mocs_compilation.cpp" "CMakeFiles/open-mvoie-desktop.dir/open-mvoie-desktop_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/open-mvoie-desktop.dir/open-mvoie-desktop_autogen/mocs_compilation.cpp.o.d"
   )
 

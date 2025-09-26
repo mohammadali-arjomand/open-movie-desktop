@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/open-mvoie-desktop.dir/main.cpp.o.d"
   "CMakeFiles/open-mvoie-desktop.dir/mainwindow.cpp.o"
   "CMakeFiles/open-mvoie-desktop.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/open-mvoie-desktop.dir/moviedetails.cpp.o"
+  "CMakeFiles/open-mvoie-desktop.dir/moviedetails.cpp.o.d"
   "CMakeFiles/open-mvoie-desktop.dir/open-mvoie-desktop_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/open-mvoie-desktop.dir/open-mvoie-desktop_autogen/mocs_compilation.cpp.o.d"
   "open-mvoie-desktop"

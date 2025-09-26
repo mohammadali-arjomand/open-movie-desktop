@@ -37,13 +37,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 62,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 45,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
@@ -105,6 +105,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -138,6 +142,11 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtSql"
 				}
 			],
 			"language" : "CXX",
@@ -153,7 +162,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		}
 	],
@@ -200,6 +210,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 9,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
 				"role" : "libraries"
@@ -227,7 +242,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		},
 		{
@@ -235,7 +251,9 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8,
+				9
 			]
 		},
 		{
@@ -243,14 +261,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -286,9 +305,31 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 1,
+			"path" : "moviedetails.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "moviedetails.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "moviedetails.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop-Debug/open-mvoie-desktop_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/open-mvoie-desktop_autogen/include/ui_moviedetails.h",
 			"sourceGroupIndex" : 1
 		},
 		{

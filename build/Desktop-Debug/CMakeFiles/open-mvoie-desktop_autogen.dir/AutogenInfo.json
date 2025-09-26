@@ -82,6 +82,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/home/mohammadali/Documents/Qt/open-mvoie-desktop/moviedetails.h",
+			"MU",
+			"EWIEGA46WW/moc_moviedetails.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -143,6 +149,11 @@
 		],
 		[
 			"/home/mohammadali/Documents/Qt/open-mvoie-desktop/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mohammadali/Documents/Qt/open-mvoie-desktop/moviedetails.cpp",
 			"MU",
 			null
 		]

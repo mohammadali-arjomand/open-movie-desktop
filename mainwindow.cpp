@@ -7,6 +7,7 @@
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlError>
 #include <QSortFilterProxyModel>
+#include "moviedetails.h"
 
 QSettings settings;
 
@@ -37,6 +38,8 @@ MainWindow::MainWindow(QWidget *parent)
         ui->listView->setModel(proxy);
 
         connect(ui->lineEdit, &QLineEdit::textChanged, proxy, &QSortFilterProxyModel::setFilterFixedString);
+
+        db.close();
     }
 }
 
@@ -76,5 +79,25 @@ void MainWindow::on_actionQuit_triggered()
 void MainWindow::on_pushButton_clicked()
 {
     qDebug() << settings.value("dbPath").toString();
+}
+
+
+void MainWindow::on_listView_clicked(const QModelIndex &index)
+{
+    QSortFilterProxyModel *proxy = qobject_cast<QSortFilterProxyModel*>(ui->listView->model());
+    if (!proxy) return;
+
+    QModelIndex sourceIndex = proxy->mapToSource(index);
+
+    QSqlQueryModel *model = qobject_cast<QSqlQueryModel*>(proxy->sourceModel());
+    if (!model) return;
+
+    QString title = model->data(sourceIndex).toString();
+    qDebug() << "Clicked title:" << title;
+
+    MovieDetails *details = new MovieDetails(title, nullptr);
+    details->show();
+
+
 }
 

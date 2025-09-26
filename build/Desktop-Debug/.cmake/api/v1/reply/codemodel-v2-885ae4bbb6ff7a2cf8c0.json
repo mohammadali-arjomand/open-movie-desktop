@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-ac2f0bc87a870e3fe6e8.json",
+					"jsonFile" : "directory-.-Debug-e3bde5d34e7a4e1db357.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "open-mvoie-desktop::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-open-mvoie-desktop-Debug-6abba9664530de048dec.json",
+					"jsonFile" : "target-open-mvoie-desktop-Debug-f3b1d34b5b28d1e68f4f.json",
 					"name" : "open-mvoie-desktop",
 					"projectIndex" : 0
 				},

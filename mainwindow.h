@@ -26,6 +26,8 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_listView_clicked(const QModelIndex &index);
+
 private:
     Ui::MainWindow *ui;
 };

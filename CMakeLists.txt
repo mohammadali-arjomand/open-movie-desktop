@@ -38,6 +38,7 @@ else()
     else()
         add_executable(open-mvoie-desktop
             ${PROJECT_SOURCES}
+            moviedetails.h moviedetails.cpp moviedetails.ui
         )
     endif()
 endif()
