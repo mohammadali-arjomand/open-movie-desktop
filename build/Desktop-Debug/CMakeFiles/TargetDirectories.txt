@@ -1,9 +1,0 @@
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/open-mvoie-desktop.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/install.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/install/local.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/install/strip.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/open-mvoie-desktop_autogen_timestamp_deps.dir
-/home/mohammadali/Documents/Qt/open-mvoie-desktop/build/Desktop-Debug/CMakeFiles/open-mvoie-desktop_autogen.dir
